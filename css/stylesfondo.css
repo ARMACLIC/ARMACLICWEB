@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.container {
+    position: relative;
+    overflow: hidden;
+    display: flex;
+
+
+    height: 100vh;
+    background: rgb(0, 0, 0);
+}
+
+
+
+.container span {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    box-shadow: 10px 10px 5px rgb(0,0,0);
+    border-radius: 0px;
+    transition: 1s;
+}
